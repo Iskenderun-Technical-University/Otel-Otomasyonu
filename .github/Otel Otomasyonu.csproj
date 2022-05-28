@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{680A6131-5F90-4012-95CF-AFBC5BFE55EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Otel_Otomasyonu</RootNamespace>
+    <AssemblyName>Otel Otomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gazeteler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gazeteler.Designer.cs">
+      <DependentUpon>Gazeteler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gelirgider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gelirgider.Designer.cs">
+      <DependentUpon>Gelirgider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris_Ekranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris_Ekranı.Designer.cs">
+      <DependentUpon>Giris_Ekranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mesajlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mesajlar.Designer.cs">
+      <DependentUpon>Mesajlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Musteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musteriler.Designer.cs">
+      <DependentUpon>Musteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Musteri_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musteri_ekle.Designer.cs">
+      <DependentUpon>Musteri_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Odalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Odalar.Designer.cs">
+      <DependentUpon>Odalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtelOtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtelOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadyoDinle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadyoDinle.Designer.cs">
+      <DependentUpon>RadyoDinle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SifreGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SifreGuncelle.Designer.cs">
+      <DependentUpon>SifreGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StokEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StokEkrani.Designer.cs">
+      <DependentUpon>StokEkrani.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gazeteler.resx">
+      <DependentUpon>Gazeteler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gelirgider.resx">
+      <DependentUpon>Gelirgider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris_Ekranı.resx">
+      <DependentUpon>Giris_Ekranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mesajlar.resx">
+      <DependentUpon>Mesajlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musteriler.resx">
+      <DependentUpon>Musteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musteri_ekle.resx">
+      <DependentUpon>Musteri_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Odalar.resx">
+      <DependentUpon>Odalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RadyoDinle.resx">
+      <DependentUpon>RadyoDinle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SifreGuncelle.resx">
+      <DependentUpon>SifreGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StokEkrani.resx">
+      <DependentUpon>StokEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OtelOtomasyonuDataSet.xsc">
+      <DependentUpon>OtelOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OtelOtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtelOtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtelOtomasyonuDataSet.xss">
+      <DependentUpon>OtelOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tsr01331637246360511531789.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59144efd4c642.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
