@@ -9,7 +9,7 @@ Uygulama Dili - C#
 
 Veri Tabanı Dili - MSSQL
 
-Yönetici kullanıcı adı ve şifresini girerek giriş yapablir ayrıca her odada bulunan bilgisayarlar aracılığıyla her müşterinin uşaşabileceği bir sayfadır. Bu sayfada müşteriler geri bildirimlerini ad-soyadlarını girerek kaydedebilir.
+Yönetici kullanıcı adı ve şifresini girerek giriş yapablir ayrıca her odada bulunan bilgisayarlar aracılığıyla her müşterinin uşaşabileceği bir sayfadır. Bu sayfada müşteriler mesajlarını ad-soyadlarını girerek kaydedebilir.
 
 ![Giriş Ekranı](https://user-images.githubusercontent.com/106451074/170855236-94cb3135-b8a7-449f-8dd7-62b119986d24.PNG)
 
