@@ -2,14 +2,14 @@
 
 Selman KAYA 192523208
 
-Yöneticinin kullanıcı adı ve parola girerek sisteme giriş yaptığı, şifresini ve parolasını güncelleyebildiği, otele müşteri kaydı oluşturup otelden çıkış yapan müşterilerin ödemesi gereken tutarın hesaplandığı, odaların boş mu dolumu olduğunun kontrollerinin yapılabildiği ve yeni müşteri geldiğinde yeşil renkli olan boş odaların kırmızı renge döndüğü, müşterilerin şikayetlerini veya taleplerini direkt yönetici ekranına düşen bildirim ile oluşturabildiği, yöneticinin ise yönetici girişi yapacağı ekrandan müşterilerden gelen geri bildirimleri görebildiği, alınan ürünlerin ve ödenen faturaların kaydının tutulduğu daha sonra gelir gider sayfasından personel maaşları dahil tüm masrafların ve gelirlerin hesaplanıp kar zarar durumunun gösterildiği, yöneticinin giriş yaptıktan sonra isterse radyo dinleyip gazete okuyabileceği şekilde dizayn edilmiş bir otomasyondur.
+Yöneticinin kullanıcı adı ve parola girerek sisteme giriş yaptığı, şifresini ve parolasını güncelleyebildiği, otele müşteri kaydı oluşturup otelden çıkış yapan müşterilerin ödemesi gereken tutarın hesaplandığı, odaların boş mu dolumu olduğunun kontrollerinin yapılabildiği ve yeni müşteri geldiğinde yeşil renkli olan boş odaların kırmızı renge döndüğü, müşterilerin şikayetlerini veya taleplerini oluşturabildiği, yöneticinin ise müşterilerden gelen geri bildirimleri görebildiği, alınan ürünlerin ve ödenen faturaların kaydının tutulduğu daha sonra gelir gider sayfasından personel maaşları dahil tüm masrafların ve gelirlerin hesaplanıp kar zarar durumunun gösterildiği, yöneticinin giriş yaptıktan sonra isterse radyo dinleyip gazete okuyabileceği şekilde dizayn edilmiş bir otomasyondur.
 
 
 Uygulama Dili - C#
 
 Veri Tabanı Dili - MSSQL
 
-Yönetici kullanıcı adı ve şifresini girerek giriş yapablir ayrıca bu sayfada müşterilerden gelen geribildirimler gösterilmektedir.
+Yönetici kullanıcı adı ve şifresini girerek giriş yapablir ayrıca her odada bulunan bilgisayarlar aracılığıyla her müşterinin uşaşabileceği bir sayfadır. Bu sayfada müşteriler geri bildirimlerini ad-soyadlarını girerek kaydedebilir.
 
 ![Giriş Ekranı](https://user-images.githubusercontent.com/106451074/170855236-94cb3135-b8a7-449f-8dd7-62b119986d24.PNG)
 
@@ -41,7 +41,7 @@ Alınan malzemelerin ve ödenen faturaların tutarlarının kaydedildiği sayfad
 
 ![Stoklar ve Faturalar](https://user-images.githubusercontent.com/106451074/170855265-efe2c702-2092-4056-816f-385250320de3.PNG)
 
-Her odada bulunan bilgisayarlar aracılığıyla her müşterinin uşaşabileceği bir sayfadır. Bu sayfada müşteriler geri bildirimlerini direkt yöneticinin ana sayfasına düşecek şekilde oluşturabilirler ve daha önceki geribildirimleri görebilirler.
+Bu sayfada müşterilerden gelen geribildirimler gösterilmektedir.
 
 ![Müşteri Mesajları](https://user-images.githubusercontent.com/106451074/170855268-0fa240a1-f352-4b29-89f5-9e02e69617cb.PNG)
 
