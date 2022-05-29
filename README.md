@@ -2,11 +2,13 @@
 
 Selman KAYA 192523208
 
-Yöneticinin kullanıcı adı ve parola girerek sisteme giriş yaptığı şifresini ve parolasını güncelleyebildiği, otele müşteri kaydı oluşturup otelden çıkış yapan müşterilerin ödemesi gereken tutarın hesaplandığı, odaların boş mu dolumu olduğunun kontrollerinin yapılabildiği ve yenimüşteri geldiğinde yeşil renkli olan boş odaların kırmızı renge döndüğü, müşterilerin şikayetlerini veya taleplerini direkt yönetici ekranına düşen bildirim ile oluşturabildiği, yöneticinin ise yönetici girişi yapacağı ekrandan müşterilerden gelen geri bildirimleri göre bildiği ayrıca anasayfa da yönetici girişi yapmadan her müşterinin gazete okuyup radyo dinleyebileceği şekilde dizayn edilmiş bir otomasyondur.
+Yöneticinin kullanıcı adı ve parola girerek sisteme giriş yaptığı, şifresini ve parolasını güncelleyebildiği, otele müşteri kaydı oluşturup otelden çıkış yapan müşterilerin ödemesi gereken tutarın hesaplandığı, odaların boş mu dolumu olduğunun kontrollerinin yapılabildiği ve yenimüşteri geldiğinde yeşil renkli olan boş odaların kırmızı renge döndüğü, müşterilerin şikayetlerini veya taleplerini direkt yönetici ekranına düşen bildirim ile oluşturabildiği, yöneticinin ise yönetici girişi yapacağı ekrandan müşterilerden gelen geri bildirimleri göre bildiği, alınan ürünlerin ve ödenen faturaların kaydının tutulduğu daha sonra gelir gider sayfasından personel maaşları dahil tüm masrafların ve gelirlerin hesaplanıp kar zarar durumunun gösterildiği, yöneticinin giriş yaptıktan sonra isterse radyo dinleyip gazete okuyabileceği şekilde dizayn edilmiş bir otomasyondur.
 
 
 Uygulama Dili - C#
+
 Veri Tabanı Dili - MSSQL
+
 ![Giriş Ekranı](https://user-images.githubusercontent.com/106451074/170855236-94cb3135-b8a7-449f-8dd7-62b119986d24.PNG)
 ![Anasayfa](https://user-images.githubusercontent.com/106451074/170855247-05204d4e-c8da-42b3-9c21-168c36164b3d.PNG)
 ![Odalar](https://user-images.githubusercontent.com/106451074/170855250-c14c87bb-9fe7-4c08-86d0-b08c9a39bd24.PNG)
