@@ -9,10 +9,12 @@ Uygulama Dili - C#
 
 Veri Tabanı Dili - MSSQL
 
-
 Yönetici kullanıcı adı ve şifresini girerek giriş yapablir ayrıca bu sayfada müşterilerden gelen geribildirimler gösterilmektedir.
 
 ![Giriş Ekranı](https://user-images.githubusercontent.com/106451074/170855236-94cb3135-b8a7-449f-8dd7-62b119986d24.PNG)
+
+Anasayfadır, yönetici tercihine göre istedği sayfaya giriş yaparak istediği bilgiyi kontrol edebilir. Ayrıca isteğe göre radyo dinleyip gazete okuyabilir.
+
 ![Anasayfa](https://user-images.githubusercontent.com/106451074/170855247-05204d4e-c8da-42b3-9c21-168c36164b3d.PNG)
 ![Odalar](https://user-images.githubusercontent.com/106451074/170855250-c14c87bb-9fe7-4c08-86d0-b08c9a39bd24.PNG)
 ![Müsteri Ekleme](https://user-images.githubusercontent.com/106451074/170855251-487542e6-5bc4-4844-a0a6-d49540546fe1.PNG)
