@@ -13,10 +13,16 @@ Yönetici kullanıcı adı ve şifresini girerek giriş yapablir ayrıca bu sayf
 
 ![Giriş Ekranı](https://user-images.githubusercontent.com/106451074/170855236-94cb3135-b8a7-449f-8dd7-62b119986d24.PNG)
 
-Anasayfadır, yönetici tercihine göre istedği sayfaya giriş yaparak istediği bilgiyi kontrol edebilir. Ayrıca isteğe göre radyo dinleyip gazete okuyabilir.
+Anasayfadır, yönetici tercihine göre istediği sayfaya giriş yaparak istediği bilgiyi kontrol edebilir. Ayrıca isteğe göre radyo dinleyip gazete okuyabilir.
 
 ![Anasayfa](https://user-images.githubusercontent.com/106451074/170855247-05204d4e-c8da-42b3-9c21-168c36164b3d.PNG)
+
+Yönetici odaların dolumu boşmu olduğunu kontrol edebilir boş olan odalar yeşil renkli görünürken dolu olan odalar kırmızı renkli görünmektedir.
+
 ![Odalar](https://user-images.githubusercontent.com/106451074/170855250-c14c87bb-9fe7-4c08-86d0-b08c9a39bd24.PNG)
+
+Müşterilerin bilgilerinin girilerek oda kaydı yapıldığı sayfadır. giriş, çıkış tarihlerine göre ve kaldığı odaya göre ücret belirlenir. 100'den 108' e kadar olan odaların günlüğü 100 TL, 200'den 208'e kadar olan odaların günlüğü 200 TL ve 300'den 308'e kadar olan odaların günlüğü 300 TL dir. Radio Buttonlar aracılığıyla ücretler hesaplanır.
+
 ![Müsteri Ekleme](https://user-images.githubusercontent.com/106451074/170855251-487542e6-5bc4-4844-a0a6-d49540546fe1.PNG)
 ![Müşteriler](https://user-images.githubusercontent.com/106451074/170855252-e59cdf27-9aaa-418b-96e7-694f1b975ba4.PNG)
 ![Şifre Güncelleme](https://user-images.githubusercontent.com/106451074/170855258-93ef3ac7-ae92-4eb0-b2ea-75e32d9e1ba9.PNG)
