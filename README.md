@@ -1,6 +1,6 @@
-# Otel Otomasyonu
-
 Selman KAYA 192523208
+
+# Otel Otomasyonu
 
 Yöneticinin kullanıcı adı ve parola girerek sisteme giriş yaptığı, şifresini ve parolasını güncelleyebildiği, otele müşteri kaydı oluşturup otelden çıkış yapan müşterilerin ödemesi gereken tutarın hesaplandığı, odaların boş mu dolumu olduğunun kontrollerinin yapılabildiği ve yeni müşteri geldiğinde yeşil renkli olan boş odaların kırmızı renge döndüğü, müşterilerin şikayetlerini veya taleplerini oluşturabildiği, yöneticinin ise müşterilerden gelen geri bildirimleri görebildiği, alınan ürünlerin ve ödenen faturaların kaydının tutulduğu daha sonra gelir gider sayfasından personel maaşları dahil tüm masrafların ve gelirlerin hesaplanıp kar zarar durumunun gösterildiği, yöneticinin giriş yaptıktan sonra isterse radyo dinleyip gazete okuyabileceği şekilde dizayn edilmiş bir otomasyondur.
 
