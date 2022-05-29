@@ -11,6 +11,7 @@ Veri Tabanı Dili - MSSQL
 
 
 
+
 Yönetici kullanıcı adı ve şifresini girerek giriş yapablir ayrıca bu sayfada müşterilerden gelen geribildirimler gösterilmektedir.
 
 ![Giriş Ekranı](https://user-images.githubusercontent.com/106451074/170855236-94cb3135-b8a7-449f-8dd7-62b119986d24.PNG)
